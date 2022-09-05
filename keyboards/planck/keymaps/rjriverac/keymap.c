@@ -118,17 +118,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * |   `  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |   0  |Delete|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Tab  |  ALT |   C  |   V  |   A  |PRSCR | Pause|   _  |   =  |   [  |   ]  |  | \ |
+ * | Tab  |  ALT |   ~  | RALT |   A  |PRSCR | Pause|   _  |   =  |   [  |   ]  |  | \ |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Shift|LCTRL |  Tab |  F9  |  F10 |RGCTRL| MENU |ISO # |ISO / |Pg Up |Pg Dn | Shift|
+ * |      |LCTRL | Shift|   P  |  F10 |RGCTRL| MENU |ISO # |ISO / |Pg Up |Pg Dn | Shift|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |      |      |      |      |             |      | Next | Vol- | Vol+ | Play |
  * `-----------------------------------------------------------------------------------'
  */
 [_RAISE] = LAYOUT_planck_grid(
     KC_GRV,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_DEL,
-    _______, KC_RALT, KC_C,    KC_V,    KC_A,   KC_PSCR, KC_PAUS, KC_MINS,  KC_EQL,   KC_LBRC,  KC_RBRC,  KC_BSLS,
-    _______, KC_LCTL, KC_TAB,  KC_F9,   KC_F10,  KC_RCTL, KC_APP,  KC_NUHS, KC_NUBS, KC_PGUP, KC_PGDN, _______,
+    _______, KC_RALT, KC_TILD,    KC_RALT,    KC_A,   KC_PSCR, KC_PAUS, KC_MINS,  KC_EQL,   KC_LBRC,  KC_RBRC,  KC_BSLS,
+    _______, KC_LCTL, KC_LSFT,  KC_P,   KC_F10,  KC_RCTL, KC_APP,  KC_NUHS, KC_NUBS, KC_PGUP, KC_PGDN, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, KC_MNXT, KC_VOLD, KC_VOLU, KC_MPLY
 ),
 
